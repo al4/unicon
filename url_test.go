@@ -4,7 +4,7 @@ import (
 	"fmt"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/taybin/unicon"
+	. "github.com/al4/unicon"
 )
 
 var _ = Describe("URLConfig", func() {

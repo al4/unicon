@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/pflag"
-	. "github.com/taybin/unicon"
+	. "github.com/al4/unicon"
 )
 
 var _ = Describe("FlagSetConfig", func() {

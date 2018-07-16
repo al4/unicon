@@ -3,7 +3,7 @@ package unicon_test
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/taybin/unicon"
+	. "github.com/al4/unicon"
 )
 
 var _ = Describe("ArgvConfig", func() {

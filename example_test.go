@@ -2,8 +2,7 @@ package unicon_test
 
 import (
 	"fmt"
-	. "github.com/ndeanNovetta/m-go"
-	. "github.com/taybin/unicon"
+	. "github.com/al4/unicon"
 	"os"
 )
 
@@ -17,7 +16,7 @@ func ExampleHierarchy() {
 
 func ExampleDefaults() {
 	conf := NewConfig(nil) // root config
-	conf.ResetDefaults(M{
+	conf.ResetDefaults(map[string]interface{}{
 		"test_default":   "123",
 		"test_default_b": "321",
 	})
